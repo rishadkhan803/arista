@@ -1,0 +1,361 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#main-nav .nav-content {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#main-nav ul li:hover ul {
+  width: 150px;
+}
+
+#main-nav ul {
+  margin: 0;
+}
+
+#main-nav .nav-content .btn {
+  display: none;
+}
+
+#showcase .right-info {
+  grid-template-columns: 1fr;
+}
+
+#showcase .right-info .image-02 {
+  height: 400px;
+}
+
+#showcase .right-info .image-01,
+#showcase .right-info .image-03,
+#showcase .right-info .image-04,
+#showcase .right-info .image-05 {
+  display: none;
+}
+
+#showcase .left-info {
+  margin-right: 1rem;
+}
+
+#showcase {
+  height: 80vh;
+}
+
+#showcase .showcase-content {
+  height: 70vh;
+  margin-top: 3rem;
+}
+
+#experience .img {
+  height: 35vh;
+}
+
+#experience .info {
+  margin: auto 1rem;
+}
+
+#work .container {
+  padding-top: 1rem;
+}
+
+#work .m-heading {
+  font-size: 1.7rem;
+  margin-left: 0.75rem;
+}
+
+#customer {
+  height: 35vh;
+}
+
+#customer .customer-content .l-heading {
+  margin-right: 3rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+#introduce .top {
+  margin-right: 20rem;
+}
+
+#client {
+  height: 50vh;
+}
+
+#client .l-heading {
+  font-size: 2.5rem;
+}
+
+#client .client-content .right .img {
+  margin-left: 2rem;
+  height: 200px;
+  width: 300px;
+}
+#client .client-content .left .logo {
+  display: none;
+}
+
+.text-primary {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#team .top {
+  margin-right: 20rem;
+}
+
+#news .bottom {
+  grid-template-columns: 1fr;
+}
+
+#page-title {
+  height: 25vh;
+}
+
+#about-a .img {
+  height: 30vh;
+}
+
+#about-b {
+  height: 65vh;
+}
+
+#about-b .top .m-heading {
+  margin-right: 1rem;
+}
+
+#about-b .top > div {
+  padding-left: 5rem;
+}
+
+#about-b .bottom {
+  grid-gap: 0.9rem;
+}
+
+#about-b .bottom p {
+  line-height: 1.5;
+}
+
+#about-c .right .img01,
+#about-c .right .img02,
+#about-c .right .img03 {
+  display: none;
+}
+
+#about-c .left {
+  text-align: center;
+}
+
+#about-c .left h4 {
+  text-align: start;
+}
+
+#about-d {
+  height: 35vh;
+}
+
+#about-d .info {
+  display: block;
+}
+
+#about-d .info .l-heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#about-d .info p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#about-d .logo img {
+  margin-right: 2rem;
+  width: 20%;
+}
+
+#about-e .m-heading {
+  text-align: center;
+}
+
+#about-e .container > p {
+  padding: 1rem;
+  text-align: center;
+}
+
+#about-e .container .reviews {
+  grid-gap: 1rem;
+}
+
+#page-title .l-heading {
+  font-size: 2rem;
+}
+
+#service .process {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+#price .packages {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-gap: 0.75rem;
+}
+
+#price .packages .package p {
+  line-height: 1.5;
+}
+
+#price .packages .package .btn {
+  margin-top: 2rem;
+  padding: 0.7rem 4rem;
+  border-radius: 10px;
+}
+
+#price .packages .package .btn:hover {
+  padding: 0.5rem 3rem;
+}
+
+#price .packages .package {
+  margin-right: 0rem;
+}
+
+#contact-page-title {
+  height: 32vh;
+}
+
+#contact-a .connect {
+  align-items: center;
+}
+
+#contact-a .connect .contact-info {
+  margin-left: 5rem;
+}
+
+#contact-b {
+  height: 55vh;
+}
+
+#contact-b .content {
+  margin: 1rem auto;
+  padding: 3rem;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+#contact-c {
+  height: 20vh;
+}
+
+#team-page-title {
+  height: 40vh;
+}
+
+#team-page-title::before {
+  content: '';
+  background: url('../img/home/person-Prat-Mhan.jpg') no-repeat center -100px / cover;
+}
+
+#team-page-title .l-heading {
+  margin-right: 20rem;
+}
+
+#team-page-title .fab {
+  margin: 4rem 20px 0 0;
+}
+
+#team-a .top p {
+  margin-left: 0;
+}
+
+#team-a .top .l-heading {
+  padding-right: 4rem;
+}
+
+#team-a .bottom .img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#team-b {
+  height: 70vh;
+}
+
+#team-b .content .m-heading {
+  text-align: center;
+}
+
+#team-b .content .head {
+  text-align: center;
+  margin: 1rem;
+}
+
+#team-b .experience {
+  grid-template-columns: 1fr;
+}
+
+#portfolio-a {
+  height: 47vh;
+}
+
+#portfolio-a .portfolio-a-content .img {
+  background: url('../img/home/Virtual-Reality.jpg') no-repeat center center/cover;
+  height: 30vh;
+  width: 250%;
+  margin-top: 2rem;
+}
+
+#portfolio-a .portfolio-a-content .info {
+  margin: 1rem;
+}
+
+#portfolio-a .portfolio-a-content .info .l-heading {
+  padding-right: 1.6rem;
+  font-weight: 500;
+}
+
+#portfolio-a .portfolio-a-content .info p {
+  margin-top: 1rem;
+  padding-right: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#portfolio-a .portfolio-a-content .info .head {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#portfolio-a .btn {
+  margin-top: 1rem;
+}
+
+#result .m-heading,
+#project h2 {
+  text-align: center;
+}
+
+#result .head, 
+#project .head {
+  padding-right: 2rem;
+  text-align: center;
+} 
+
+#result .images .img01,
+#result .images .img02,
+#result .images .img03,
+#result .images .img04,
+#result .images .img05,
+#result .images .img06 {
+  height: 200px;
+}
+
+#main-footer .footer-content .social .fab {
+  margin-bottom: 1rem;
+}

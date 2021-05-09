@@ -1,0 +1,445 @@
+#main-nav ul li {
+  padding: 0.5rem;
+}
+
+#main-nav ul {
+  margin: 0;
+}
+
+#main-nav ul li a {
+  font-size: 0.9rem;
+}
+
+#main-nav ul li .fas {
+  display: none;
+}
+
+#main-nav .logo {
+  text-align: center;
+}
+
+#showcase .right-info .image-01,
+#showcase .right-info .image-02,
+#showcase .right-info .image-03,
+#showcase .right-info .image-04,
+#showcase .right-info .image-05 {
+  display: none;
+}
+
+#showcase .showcase-content {
+  height: 65vh;
+  text-align: center;
+}
+
+#showcase .showcase-content  .l-heading {
+  font-size: 2rem;
+}
+
+#showcase .showcase-content .btn {
+  padding: 1rem 2rem;
+}
+
+#experience .experience-content {
+  display: block;
+}
+
+#experience .img {
+  width: 100%;
+}
+
+#experience .m-heading {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+#work .process {
+  grid-template-columns: 1fr;
+  padding: 2rem;
+}
+
+
+#customer .customer-content .l-heading {
+  font-size: 2rem;
+  margin-right: 0;
+  padding: 2rem;
+}
+
+#customer .customer-content .fas {
+  display: none;
+}
+
+#introduce .top {
+  text-align: center;
+  margin: 0 1rem;
+}
+
+#introduce .bottom {
+  grid-template-columns: 1fr;
+  padding: 1rem;
+}
+
+#client {
+  height: 70vh;
+}
+
+#client .client-content  {
+  text-align: center;
+  padding: 1rem;
+}
+
+#client .btn {
+  margin-top: 1rem;
+}
+
+#client .client-content .right .img {
+  display: none;
+}
+
+#team .top {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+#team .bottom {
+  grid-template-columns: 1fr;
+  padding: 1.5rem;
+}
+
+#news .l-heading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#news .bottom {
+  padding: 1rem 1.5rem;
+}
+
+#main-footer .footer-content {
+  grid-template-columns: 1fr;
+  padding: 2rem 1rem;
+}
+
+
+#main-footer .footer-content .social,
+#main-footer .footer-content .bottom {
+  text-align: center;
+}
+
+#main-footer .footer-content > div {
+  border-bottom: 2px solid #110066;
+  padding-bottom: 1rem;
+}
+
+#main-footer .footer-content div:last-child {
+  border: none;
+}
+
+#page-title .lead {
+  font-size: 1rem;
+}
+
+#about-a .l-heading {
+  font-size: 2rem;
+}
+
+#about-a .container {
+  padding: 1rem;
+  text-align: center;
+}
+
+#about-b .top {
+  flex: none;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+
+#about-b .top > div  {
+  padding: 1rem;
+  display: flex;
+}
+
+
+#about-b .top > div h3 {
+  margin: 1rem 1rem 0 0;
+}
+
+#about-b .top > div p {
+  text-align: start;
+}
+
+#about-b {
+  height: 890px;
+}
+
+#about-b .bottom {
+  grid-template-columns: 1fr;
+  margin: 0 1rem;
+}
+
+#about-c {
+  height: 720px;
+}
+
+#about-c .container {
+  padding-top: 0;
+}
+
+#about-d {
+  height: 350px;
+}
+
+#about-c .right {
+  grid-template-columns: 1fr;
+}
+
+#about-c .left {
+  text-align: center;
+  padding: 1rem;
+}
+
+#about-d .container {
+  padding: 1rem;
+}
+
+#about-d .info .l-heading {
+  font-size: 2rem;
+}
+
+#about-d .info {
+  margin-bottom: 1rem;
+
+}
+
+#about-d .logo img {
+  width: 80px;
+  margin-right: 0.5rem;
+}
+
+
+#about-e .container .reviews {
+  grid-template-columns: 1fr;
+  margin: 1rem;
+  padding-top: 1rem;
+}
+
+#about-e .container {
+  padding-top: 1rem;
+}
+
+#about-e {
+  height: 1070px;
+}
+
+#page-title .py-4 {
+  padding-top: 1rem;
+}
+
+#page-title .py-4 .l-heading {
+  font-size: 1.6rem;
+}
+
+#service .l-heading {
+  font-size: 2rem ;
+  margin-top: 0;
+} 
+
+#service .service-content {
+  padding: 1rem;
+}
+
+#service .process {
+  grid-template-columns: 1fr;
+}
+
+#price .container {
+  padding: 1rem;
+}
+
+#price .container .l-heading {
+  font-size: 2rem;
+}
+
+#price .container .lead {
+  padding-top: 0;
+}
+
+#price .packages {
+  display: block;
+}
+
+#price .packages .package {
+  margin-bottom: 1rem;
+}
+
+#price .packages .package .btn {
+  margin-top: 2rem;
+  padding: 1rem 8rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#price .packages .package .btn:hover {
+  padding: 0.75rem 6.5rem;
+}
+
+#contact-page-title .l-heading {
+  font-size: 2rem;
+  margin-right: 0;
+  text-align: center;
+}
+
+#contact-page-title {
+  height: 20vh;
+}
+
+#contact-a:before {
+  content: '';
+  background: url('../img/bg-contact-form.jpg') no-repeat center center / cover;
+}
+
+#contact-a .connect {
+  display: block;
+}
+
+#contact-a .text-field {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#contact-a {
+  height: 800px;
+}
+
+#contact-a .connect .contact-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 3rem 0 1rem 0;
+  grid-gap: 1rem;
+  background: var(--secondary-color);
+  padding: 1rem;
+}
+
+#contact-a .contact-info > div {
+  margin-left: 4rem;
+}
+
+#contact-a .contact-info > div:last-child {
+  margin-bottom: 0;
+}
+
+#contact-b {
+  height: 580px;
+}
+
+#contact-b .button .btn {
+  margin-right: 0.2rem;
+}
+
+#contact-b .button .btn,
+#contact-b .button .free-btn {
+  padding: 0.75rem 0.9rem;
+}
+
+#contact-b .button .btn:hover,
+#contact-b .button .free-btn:hover {
+  font-size: 0.76rem;
+  padding: 0.5rem 0.75rem;
+}
+
+#team-page-title {
+  padding: 1rem;
+  text-align: center;
+}
+
+#team-page-title::before {
+  content: '';
+  background: url('../img/home/person-Prat-Mhan.jpg') no-repeat center top / cover;
+}
+
+#team-page-title .content {
+  margin-top: 0;
+}
+
+#team-page-title .l-heading {
+  margin-right: 0;
+  font-size: 2.5rem;
+}
+
+#team-a .top {
+  display: block;
+  padding: 1rem;
+}
+
+#team-a .top .l-heading {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+#team-a .bottom .img {
+  height: 100px;
+  width: 200px;
+}
+
+#team-b {
+  height: 800px;
+  padding: 0 1rem;
+}
+
+#portfolio-a {
+  height: 610px;
+}
+
+#portfolio-a .portfolio-a-content {
+  display: block;
+}
+
+#portfolio-a .portfolio-a-content .img {
+  height: 200px;
+  width: 100%;
+}
+
+#portfolio-a .portfolio-a-content .info .l-heading {
+  padding-right: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#portfolio-b .container {
+  padding: 1rem;
+}
+
+#portfolio-b .container .portfolio {
+  padding: 0;
+}
+
+#portfolio-b .container .portfolio > div {
+  padding: 1rem 0;
+} 
+
+#project .container {
+  padding: 1rem 0;
+}
+
+#project .head {
+  margin: 0;
+  padding: 1rem;
+}
+
+#project .box {
+  grid-template-columns: 1fr;
+  padding: 1rem;
+}
+
+#project .box > div {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+}
+
+#project .box > div:last-child {
+  border: none;
+}

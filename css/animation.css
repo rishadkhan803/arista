@@ -1,0 +1,149 @@
+/* Showcase Animation */
+#showcase .left-info .l-heading,
+#showcase .left-info .lead,
+#showcase .left-info .social {
+  transform: translateX(-1200px);
+  animation: heading 2s forwards ease-in-out;
+}
+
+#showcase .left-info .social {
+  animation-delay: 0.8s;
+}
+
+#showcase .left-info .btn {
+  transform: translateY(1200px);
+  animation: btn 2.2s forwards ease-in-out 0.3s;
+}
+
+#showcase .right-info .image-01,
+#showcase .right-info .image-02,
+#showcase .right-info .image-03,
+#showcase .right-info .image-04,
+#showcase .right-info .image-05 {
+  transform: translateY(-2000px);
+  animation: text 2.2s forwards ease-in-out;
+}
+
+#showcase .right-info .image-02 {
+  animation-delay: 0.7s;
+}
+
+#showcase .right-info .image-04,
+#showcase .right-info .image-05 {
+  animation-delay: 0.3s;
+}
+
+@keyframes heading {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes btn {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes text {
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Page Title */
+#page-title .l-heading {
+  transform: translateY(-1200px);
+  animation: header 1.6s forwards ease-in-out;
+}
+
+#page-title .lead {
+  transform: translateX(-2000px);
+  animation: text 2s forwards ease-in-out 0.4s;
+}
+
+@keyframes header {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes text {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Page: Contact */
+#contact-page-title .l-heading {
+  transform: translateX(3000px);
+  animation: header 1.6s forwards ease-in-out;
+}
+
+@keyframes header {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Page: Team */
+#team-page-title .l-heading {
+  transform: translateY(-1200px);
+  animation: heading 1.2s forwards ease-in-out;
+}
+
+#team-page-title p {
+  transform: translateX(-2000px);
+  animation: text 1.5s forwards ease-in-out;
+}
+
+#team-page-title .fab {
+  transform: translateX(3000px);
+  animation: text 1.8s forwards ease-in-out;
+}
+
+@keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes text {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Page: Portfolio */
+#portfolio-a .img {
+  transform: translateX(2000px);
+  animation: img 1s forwards ease-in-out;
+}
+
+#portfolio-a .info {
+  transform: translateX(-2000px);
+  animation: info 1s forwards ease-in-out;
+}
+
+#portfolio-a .btn {
+  transform: translateY(2000px);
+  animation: btn 1.5s forwards ease-in-out;
+}
+
+@keyframes img {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes info {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes btn {
+  to {
+    transform: translateY(0);
+  }
+}
